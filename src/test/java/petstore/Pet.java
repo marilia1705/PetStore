@@ -22,7 +22,7 @@ public class Pet {
     //Incluir - Create - Post
     @Test //Identifica o método ou função como um teste para o TestNG
     public void incluirPet() throws IOException {
-        String jsonBody = lerJson(caminhoJson:"db/pet1.json");
+        String jsonBody = lerJson("db/pet1.json");
 
         //Sintaxe GherKin
         //Dado - quando - Então
