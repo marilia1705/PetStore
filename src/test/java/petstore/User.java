@@ -1,4 +1,4 @@
 package petstore;
 
-public class user {
+public class User {
 }
